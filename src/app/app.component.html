@@ -300,6 +300,10 @@
       visibility: hidden;
     }
   }
+
+  .fieldWidth {
+    width: 350px;
+  }
 </style>
 
 <!-- Toolbar -->
@@ -359,6 +363,40 @@
   </div>
 
   <!-- Content goes here -->
-<mat-checkbox>Subscribe to my Newsletter</mat-checkbox>
+
+  <mat-checkbox>Subscribe to my Newsletter</mat-checkbox>
+  <!-- <i class="bi bi-bootstrap"></i>&nbsp;<i class="bi bi-star"></i> -->
+  <div class="spacer"></div>
+
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+
+  <body class="center">
+
+  <main class="form-signin">
+    <form>
+       <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+      <div class="form-floating fieldWidth">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating fieldWidth">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword fieldWidth">Password</label>
+      </div>
+
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+    </form>
+  </main>
+  </body>
+
   <!-- End Content -->
 <router-outlet></router-outlet>
