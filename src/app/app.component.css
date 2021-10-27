@@ -1,3 +1,24 @@
-.facebook-svg {
-    image-rendering: "assets/facebook-svg.svg";
+.AmpSize {
+    font-size: 24px;
+}
+
+.pwLogoSize {
+    font-size: 30px;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fontFace {
+    font-family:cursive;
+}
+
+.center {
+    text-align: center;
+}
+
+.wide {
+    width: 1000px
 }
