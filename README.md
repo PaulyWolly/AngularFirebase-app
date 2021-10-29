@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
-Working demo: <a href="https://angularfirebase-app-9b2f4.web.app/" target="_blank">angularfirebase-app-9b2f4-web</a>
+Working demo hosted on Firebase: <a href="https://angularfirebase-app-9b2f4.web.app/" target="_blank">angularfirebase-app-9b2f4-web</a>
 
 ## Development server
 
