@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Working demo hosted on Firebase: <a href="https://angularfirebase-app-9b2f4.web.app/" target="_blank">angularfirebase-app-9b2f4-web</a> 
 
-(Do a CTRL+click (on Windows and Linux) or CMD+click (on MacOS) on the link to open in a new tab since Github is not set up to do "target=_blank")
+(Do a CTRL+click (on Windows and Linux) or CMD+click (on MacOS) on the link to open in a new tab - since Github is not set up to do "target=_blank")
 
 ## Development server
 
