@@ -13,6 +13,8 @@ import { NewsletterComponent } from './pages/newsletter/newsletter.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { LoginComponent } from './pages/login/login.component';
+import { VideoComponent } from './pages/video/video.component';
+import { FeaturesComponent } from './pages/features/features.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { LoginComponent } from './pages/login/login.component';
     NewsletterComponent,
     HomeComponent,
     PageNotFoundComponent,
-    LoginComponent
+    LoginComponent,
+    VideoComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule,

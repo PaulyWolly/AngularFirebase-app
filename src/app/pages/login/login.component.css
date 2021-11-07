@@ -1,0 +1,10 @@
+.sandboxTextStyle {
+    font-size: 22px;
+    font-style: normal;
+    font-stretch: condensed;
+}
+
+.form-signin {
+    position: relative;
+    bottom: 70px;
+}
