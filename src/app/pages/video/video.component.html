@@ -38,7 +38,7 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="/Contact">Contact</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle  text-white" href="./" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Dropdown
@@ -54,7 +54,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-muted disabled ">Disabled</a>
-                    </li>
+                    </li> -->
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -70,18 +70,28 @@
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 
             <div class="col-10 col-sm-8 col-lg-6 videoPlacement">
-                <youtube-player videoId="{{ videoId }}" suggestedQuality="highres" [height]="300" [width]="500"
+
+                <!-- Post a description of the video -->
+                <span>{{ description }}</span>
+
+                <!-- output the video here -->
+                <youtube-player videoId="{{ videoId }}" suggestedQuality="highres" [height]="310" [width]="550"
                     [startSeconds]="0" [endSeconds]="100">
                 </youtube-player>
+                <span><a href="https://www.youtube.com/channel/UC4T9oHvffAyPsBUDmqE3HYA">Marco's Youtube
+                        Channel</a></span>
             </div>
 
             <div class="col-lg-6">
+
+                <!-- Describe page -->
                 <h1 class="display-5 fw-bold lh-1 mb-3">Video Player (Youtube) Page</h1>
 
-
-                <p class="lead">This simple delay hack can add so much rhythm to a simple chord progression! This is the
-                    one and only "U2 - The Edge's" sound. Just set the delay with a dotted quaver. Then, play the chords
-                    in quavers (two notes per beat). The delay I used in the Precision Delay from UAD.</p>
+                <!-- text content -->
+                <p class="lead leadStyle">{{ contentPlacement }}</p>
+                <p class="lead leadStyle">I love the playing style of this musician. He takes a very delicate approach
+                    to creating melodies and chord patterns that are very appealing to the ear.
+                </p>
 
                 <span>THIS VIDEO IS SPONSORED BY LAVA MUSIC</span>
 
