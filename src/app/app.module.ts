@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -34,7 +35,8 @@ import { FeaturesComponent } from './pages/features/features.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCheckboxModule,
-    RouterModule
+    RouterModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
